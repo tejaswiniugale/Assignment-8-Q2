@@ -1,0 +1,7 @@
+<div>
+  <h1>Parent Component (App)</h1>
+  <p>{{ messageFromChild }}</p>
+  <app-child (messageToParent)="handleMessageFromChild($event)"></app-child>
+</div>
+
+<router-outlet></router-outlet>
